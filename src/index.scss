@@ -1,0 +1,11 @@
+@import './components/add-note-form/add-note-form';
+@import './components/app/app';
+@import './components/note-list/note-list';
+@import './components/note-list-item/note-list-item';
+@import './components/search-form/search-form';
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}

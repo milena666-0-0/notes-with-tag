@@ -1,0 +1,16 @@
+@import '../../mixins';
+
+.add-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__input {
+        @include inputProps;
+        min-width: 400px;
+        max-width: 800px;
+    }
+    &__btn {
+        @include btn;
+        margin-left: 50px;
+    }
+}

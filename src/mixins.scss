@@ -1,0 +1,50 @@
+@mixin inputProps {
+    border: 1px solid rgba(88, 87, 87, 0.274);
+    padding: 10px;
+    width: 90%;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: box-shadow 0.3s;
+    -webkit-transition: box-shadow 0.3s;
+    -moz-transition: box-shadow 0.3s;
+    -ms-transition: box-shadow 0.3s;
+    -o-transition: box-shadow 0.3s;  
+    &:focus{
+        box-shadow: 0 0 10px #b8cbe9
+    }
+
+}
+
+@mixin btn {
+    outline: none;
+    border: none;
+    background: #0d6efd;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 5px 15px;
+    transition: all 0.3s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    &:hover {
+        background: #165bc4;
+    }
+    &:active {
+        box-shadow: 0 0 10px rgb(0, 68, 255);
+    }
+}
+
